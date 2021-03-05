@@ -18,19 +18,13 @@ public class Main {
         String mostrar = americana.toString();
         System.out.println(mostrar);
 
-        Pizza especial = new Pizza();
-        especial.setMasa("normal");
-        especial.setRelleno(false);
-        especial.setTipo(3);
-        especial.setSalsa(false);
-        especial.setCebolla(true);
-        especial.setSinGluten(false);
-        especial.setExtraQueso(true);
-        especial.setPiña(false);
-        especial.setChampiñones(true);
-        especial.setJamon(true);
-        String mostrar2 = especial.toString();
+        Pizza clasica = new Pizza();
+        String mostrar2 = clasica.toString();
         System.out.println(mostrar2);
+
+        Pizza especial = new Pizza("integral", true, 3, false, "", true, false, true, false, true, true);
+        String mostrar3 = especial.toString();
+        System.out.println(mostrar3);
 
 
     }

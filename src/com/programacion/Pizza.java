@@ -15,6 +15,16 @@ public class Pizza {
     private boolean jamon;
 
     public Pizza() {
+        masa = "normal";
+        relleno = false;
+        tipo = 2;
+        salsa = false;
+        cebolla = false;
+        sinGluten = false;
+        extraQueso = true;
+        piña = false;
+        champiñones = false;
+        jamon = true;
     }
 
     public Pizza(String masa, boolean relleno, int tipo, boolean salsa, String tipoSalsa, boolean cebolla, boolean sinGluten, boolean extraQueso, boolean piña, boolean champiñones, boolean jamon) {
