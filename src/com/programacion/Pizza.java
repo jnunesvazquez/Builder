@@ -27,6 +27,20 @@ public class Pizza {
         jamon = true;
     }
 
+    /**
+     * Objeto Pizza
+     * @param masa puede ser fina o pan
+     * @param relleno si lleva o no(true or false)
+     * @param tipo  pequeña, mediana, familiar
+     * @param salsa Si lleva o no
+     * @param tipoSalsa Barbacoa o bolognesa
+     * @param cebolla   Si lleva o no
+     * @param sinGluten Si lleva o no
+     * @param extraQueso    Si lleva o no
+     * @param piña  Si lleva o no
+     * @param champiñones   Si lleva o no
+     * @param jamon Si lleva o no
+     */
     public Pizza(String masa, boolean relleno, int tipo, boolean salsa, String tipoSalsa, boolean cebolla, boolean sinGluten, boolean extraQueso, boolean piña, boolean champiñones, boolean jamon) {
         this.masa = masa;
         this.relleno = relleno;
